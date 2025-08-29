@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-mergeDebugResources-44:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-mergeDebugResources-44:\\layout\\item_row.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\item_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-mergeDebugResources-44:\\layout\\activity_optimize.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_optimize.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-mergeDebugResources-44:\\layout\\activity_view_list.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_view_list.xml"
+    },
+    {
+        "merged": "com.example.groceryoptimizer.app-mergeDebugResources-44:/layout/activity_add_item.xml",
+        "source": "com.example.groceryoptimizer.app-main-47:/layout/activity_add_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-mergeDebugResources-44:\\layout\\activity_add_item.xml",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_add_item.xml"
+    }
+]

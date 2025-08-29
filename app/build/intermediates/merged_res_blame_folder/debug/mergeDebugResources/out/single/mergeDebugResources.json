@@ -1,0 +1,90 @@
+[
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\layout_activity_optimize.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_optimize.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\drawable_ic_delete_24.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\drawable\\ic_delete_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\layout_activity_view_list.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_view_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\layout_activity_add_item.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\activity_add_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\menu_menu_drawer.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\menu\\menu_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.groceryoptimizer.app-debug-45:/layout_activity_add_item.xml.flat",
+        "source": "com.example.groceryoptimizer.app-main-47:/layout/activity_add_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\layout_item_row.xml.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\layout\\item_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-debug-45:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ASUS\\.gradle\\daemon\\8.7\\com.example.groceryoptimizer.app-main-47:\\mipmap-hdpi\\ic_launcher.webp"
+    }
+]

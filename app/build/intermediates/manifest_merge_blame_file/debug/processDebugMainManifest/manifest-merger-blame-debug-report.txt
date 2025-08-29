@@ -1,0 +1,259 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.groceryoptimizer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:5:5-65
+11-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:5:22-62
+12
+13    <uses-feature
+13-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:6:5-8:36
+14        android:name="android.hardware.camera"
+14-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:7:9-47
+15        android:required="false" />
+15-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:8:9-33
+16
+17    <uses-permission android:name="android.permission.VIBRATE" />
+17-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:10:5-66
+17-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:10:22-63
+18
+19    <permission
+19-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+20        android:name="com.example.groceryoptimizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.example.groceryoptimizer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+23-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+24    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:5-79
+25-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:25:22-76
+26    <uses-permission android:name="android.permission.INTERNET" />
+26-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+26-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+27
+28    <application
+28-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:12:5-32:19
+29        android:name="com.example.groceryoptimizer.App"
+29-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:13:9-28
+30        android:allowBackup="true"
+30-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:14:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.13.1] C:\Users\ASUS\.gradle\caches\transforms-4\8e0a0bff2d388b6446750efdf4a5758f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+32        android:debuggable="true"
+33        android:extractNativeLibs="false"
+34        android:icon="@mipmap/ic_launcher"
+34-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:15:9-43
+35        android:label="Grocery Optimizer"
+35-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:16:9-42
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:17:9-54
+37        android:supportsRtl="true"
+37-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:18:9-35
+38        android:testOnly="true"
+39        android:theme="@style/Theme.GroceryOptimizer" >
+39-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:19:9-54
+40        <activity android:name="com.example.groceryoptimizer.ui.OptimizeActivity" />
+40-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:21:9-57
+40-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:21:19-54
+41        <activity android:name="com.example.groceryoptimizer.ui.ViewListActivity" />
+41-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:22:9-57
+41-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:22:19-54
+42        <activity android:name="com.example.groceryoptimizer.ui.AddItemActivity" />
+42-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:23:9-56
+42-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:23:19-53
+43        <activity
+43-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:24:9-31:20
+44            android:name="com.example.groceryoptimizer.ui.MainActivity"
+44-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:25:13-44
+45            android:exported="true" >
+45-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:26:13-36
+46            <intent-filter>
+46-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:27:13-30:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:28:17-69
+47-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:28:25-66
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:29:17-76
+49-->C:\Users\ASUS\AndroidStudioProjects\GroceryOptimizer\app\src\main\AndroidManifest.xml:29:27-74
+50            </intent-filter>
+51        </activity>
+52
+53        <service
+53-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:24:9-33:19
+54            android:name="androidx.camera.core.impl.MetadataHolderService"
+54-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:25:13-75
+55            android:enabled="false"
+55-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:26:13-36
+56            android:exported="false" >
+56-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:30:13-32:89
+58                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+58-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:31:17-103
+59                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+59-->[androidx.camera:camera-camera2:1.3.4] C:\Users\ASUS\.gradle\caches\transforms-4\c7e0ffedd60d5dd14271a7c901ff6c17\transformed\jetified-camera-camera2-1.3.4\AndroidManifest.xml:32:17-86
+60        </service>
+61        <service
+61-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:9:9-15:19
+62            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+62-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:10:13-91
+63            android:directBootAware="true"
+63-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:17:13-43
+64            android:exported="false" >
+64-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:11:13-37
+65            <meta-data
+65-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:12:13-14:85
+66                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+66-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:13:17-120
+67                android:value="com.google.firebase.components.ComponentRegistrar" />
+67-->[com.google.android.gms:play-services-mlkit-barcode-scanning:18.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\adf4ad645c214f5c3625e7eb063bd97a\transformed\jetified-play-services-mlkit-barcode-scanning-18.3.0\AndroidManifest.xml:14:17-82
+68            <meta-data
+68-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\b9fe1222c670a36fdc44f0cd3736f8fc\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:12:13-14:85
+69                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+69-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\b9fe1222c670a36fdc44f0cd3736f8fc\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:13:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.mlkit:vision-common:17.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\b9fe1222c670a36fdc44f0cd3736f8fc\transformed\jetified-vision-common-17.3.0\AndroidManifest.xml:14:17-82
+71            <meta-data
+71-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:20:13-22:85
+72                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+72-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:21:17-120
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:22:17-82
+74        </service>
+75
+76        <provider
+76-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:9:9-13:38
+77            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+77-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:10:13-78
+78            android:authorities="com.example.groceryoptimizer.mlkitinitprovider"
+78-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:11:13-69
+79            android:exported="false"
+79-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:12:13-37
+80            android:initOrder="99" />
+80-->[com.google.mlkit:common:18.9.0] C:\Users\ASUS\.gradle\caches\transforms-4\59159dbb5ba140e37b5867c03db8acfe\transformed\jetified-common-18.9.0\AndroidManifest.xml:13:13-35
+81
+82        <activity
+82-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\5cdd96ba920bb79095d4d98cab331fdc\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+83            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+83-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\5cdd96ba920bb79095d4d98cab331fdc\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+84            android:exported="false"
+84-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\5cdd96ba920bb79095d4d98cab331fdc\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+85            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+85-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\5cdd96ba920bb79095d4d98cab331fdc\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+86
+87        <meta-data
+87-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\bd634c4358ad33e19baff1f1ea86dd4f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+88            android:name="com.google.android.gms.version"
+88-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\bd634c4358ad33e19baff1f1ea86dd4f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+89            android:value="@integer/google_play_services_version" />
+89-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\ASUS\.gradle\caches\transforms-4\bd634c4358ad33e19baff1f1ea86dd4f\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+90
+91        <provider
+91-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+92            android:name="androidx.startup.InitializationProvider"
+92-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:25:13-67
+93            android:authorities="com.example.groceryoptimizer.androidx-startup"
+93-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:26:13-68
+94            android:exported="false" >
+94-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:27:13-37
+95            <meta-data
+95-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+96                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+96-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:30:17-75
+97                android:value="androidx.startup" />
+97-->[androidx.emoji2:emoji2:1.3.0] C:\Users\ASUS\.gradle\caches\transforms-4\81de327c2e3d389f25388b00a9ab10d6\transformed\jetified-emoji2-1.3.0\AndroidManifest.xml:31:17-49
+98            <meta-data
+98-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\ASUS\.gradle\caches\transforms-4\d28e7ddc86a6e83a3a6ddbee9a3ac310\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:29:13-31:52
+99                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+99-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\ASUS\.gradle\caches\transforms-4\d28e7ddc86a6e83a3a6ddbee9a3ac310\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:30:17-78
+100                android:value="androidx.startup" />
+100-->[androidx.lifecycle:lifecycle-process:2.8.6] C:\Users\ASUS\.gradle\caches\transforms-4\d28e7ddc86a6e83a3a6ddbee9a3ac310\transformed\jetified-lifecycle-process-2.8.6\AndroidManifest.xml:31:17-49
+101            <meta-data
+101-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+102                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+102-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+103                android:value="androidx.startup" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+104        </provider>
+105
+106        <receiver
+106-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+107            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+107-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+108            android:directBootAware="false"
+108-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+109            android:enabled="true"
+109-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+110            android:exported="true"
+110-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+111            android:permission="android.permission.DUMP" >
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+112            <intent-filter>
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+113                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+114            </intent-filter>
+115            <intent-filter>
+115-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+116                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+117            </intent-filter>
+118            <intent-filter>
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+119                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+120            </intent-filter>
+121            <intent-filter>
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+122                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\ASUS\.gradle\caches\transforms-4\a36e384492913ba24ae5891b6164429e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+123            </intent-filter>
+124        </receiver>
+125
+126        <service
+126-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+127            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+127-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+128            android:exported="false" >
+128-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+129            <meta-data
+129-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+130                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+130-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+131                android:value="cct" />
+131-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\ASUS\.gradle\caches\transforms-4\2697a469362c54d8e5bd27a585863892\transformed\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+132        </service>
+133        <service
+133-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+134            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+134-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+135            android:exported="false"
+135-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+136            android:permission="android.permission.BIND_JOB_SERVICE" >
+136-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+137        </service>
+138
+139        <receiver
+139-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+140            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+140-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+141            android:exported="false" />
+141-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\ASUS\.gradle\caches\transforms-4\21744f75e9de43dae3c521fbc5f74da6\transformed\jetified-transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+142    </application>
+143
+144</manifest>
